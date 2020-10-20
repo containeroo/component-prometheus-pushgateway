@@ -2,10 +2,10 @@ parameters:
   kapitan:
     dependencies:
       - type: helm
-        output_path: dependencies/promtheus-pushgateway/helmcharts/promtheus-pushgateway
+        output_path: dependencies/prometheus-pushgateway/helmcharts/prometheus-pushgateway
         source: https://prometheus-community.github.io/helm-charts
         version: ${prometheus_pushgateway:charts:prometheus-pushgateway}
-        chart_name: promtheus-pushgateway
+        chart_name: prometheus-pushgateway
     compile:
       - input_paths:
           - prometheus-pushgateway/component/app.jsonnet
