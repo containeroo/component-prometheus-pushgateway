@@ -4,7 +4,7 @@ parameters:
       - type: helm
         output_path: dependencies/promtheus-pushgateway/helmcharts/promtheus-pushgateway
         source: https://prometheus-community.github.io/helm-charts
-        version: ${promtheus_pushgateway:charts:promtheus-pushgateway}
+        version: ${prometheus_pushgateway:charts:promtheus-pushgateway}
         chart_name: promtheus-pushgateway
     compile:
       - input_paths:
