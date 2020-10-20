@@ -1,0 +1,6 @@
+name: prometheus-pushgateway
+title: prometheus-pushgateway
+version: master
+start_page: ROOT:index.adoc
+nav:
+  - modules/ROOT/partials/nav.adoc

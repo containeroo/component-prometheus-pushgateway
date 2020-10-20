@@ -1,0 +1,3 @@
+parameters:
+  prometheus_pushgateway:
+    namespace: syn-prometheus-pushgateway

@@ -1,0 +1,5 @@
+= prometheus-pushgateway
+
+prometheus-pushgateway is a Commodore component to manage prometheus-pushgateway.
+
+See the xref:references/parameters.adoc[parameters] reference for further details.
