@@ -3,5 +3,5 @@ parameters:
     extraYAMLs: []
     namespace: syn-prometheus-pushgateway
     charts:
-      prometheus-pushgateway: 1.4.2
+      prometheus-pushgateway: 1.7.1
     helmValues: {}
